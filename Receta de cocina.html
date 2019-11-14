@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+
+<style type="text/css">
+	
+[data-ingrediente] {
+  color: green;
+}
+
+
+[data-ingrediente="Aguacate"] {
+  background-color: #0f0;
+}
+
+#Recetaentera { display: inline-block;
+border:solid lime 5px; padding: 20px; float: left;} 
+
+[data-cantidad="1 cucharadita"]{ background-color: pink }
+
+#Guacamole {  border: solid lime 5px; padding: 20px; float: right;margin-right: 200px }
+#Fotoguacamole{ width: 300px; height: 200px}
+#contenedor{ width: 100%;display: inline-block }
+#formulario { }
+#Comentarios { size: 200px}
+
+
+</style>
+
+
+<head>
+	
+	<h1> Receta de guacamole</h1>
+</head>
+
+
+
+<div id="contenedor">
+<div id="Recetaentera">
+<h2>Ingredientes para un sabroso guacamole</h2>	
+
+<ul>
+  <li data-cantidad="2" data-ingrediente="Aguacate">Aguacate</li>
+  <li data-cantidad="0.5" data-ingrediente>Cebolla</li>
+  <li data-cantidad="1" data-ingrediente>Tomate</li>
+  <li data-cantidad="Unas ramitas" data-extras>Cilantro</li>
+  <li data-cantidad="1 cucharadita" data-extras>Sal</li>
+  <li data-cantidad="Un chorrito" data-extras>Lima</li>
+</ul>
+</div>
+
+<div id="Guacamole">
+	
+<img id="Fotoguacamole" src="https://www.hola.com/imagenes/cocina/recetas/20191001150561/guacamole-clasico/0-726-364/guacamole-m.jpg" alt="foto guacamole">
+</div>
+
+</div>	
+
+
+<div id="formulario" >
+	<form>
+	 <label for=”Comentarios”><h2>Comentarios</h2></label>
+    <textarea id=”Comentarios></textarea>	
+
+<input type=”submit” value=”Enviar”> 
+
+	</form>
+
+
+</div>
+
+
+
+</html>
